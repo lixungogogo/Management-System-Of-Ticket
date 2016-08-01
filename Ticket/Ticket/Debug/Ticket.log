@@ -1,0 +1,36 @@
+﻿Build started 2016/8/1 19:29:49.
+     1>Project "E:\DEMO\Ticket\Ticket\Ticket\Ticket.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         D:\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt book.c linklist.c load.c main.c return_order.c select.c server_client.c
+         server_client.c
+     1>e:\demo\ticket\ticket\ticket\server_client.c(19): warning C4013: 'LOAD' undefined; assuming extern returning int
+     1>e:\demo\ticket\ticket\ticket\server_client.c(49): warning C4013: 'SELECT' undefined; assuming extern returning int
+     1>e:\demo\ticket\ticket\ticket\server_client.c(50): warning C4013: 'ORDER' undefined; assuming extern returning int
+     1>e:\demo\ticket\ticket\ticket\server_client.c(50): warning C4047: '=' : 'Order *' differs in levels of indirection from 'int'
+     1>e:\demo\ticket\ticket\ticket\server_client.c(51): warning C4013: 'RETURN' undefined; assuming extern returning int
+         select.c
+         return_order.c
+     1>e:\demo\ticket\ticket\ticket\return_order.c(11): warning C4029: declared formal parameter list different from definition
+         main.c
+     1>e:\demo\ticket\ticket\ticket\main.c(35): warning C4013: 'Admin' undefined; assuming extern returning int
+         load.c
+         linklist.c
+         book.c
+     1>e:\demo\ticket\ticket\ticket\book.c(424): warning C4101: 'station_line' : unreferenced local variable
+         Generating Code...
+     1>e:\demo\ticket\ticket\ticket\book.c(359): warning C4715: 'book' : not all control paths return a value
+     1>e:\demo\ticket\ticket\ticket\linklist.c(94): warning C4715: 'ListInsert_order' : not all control paths return a value
+       Link:
+         D:\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\DEMO\Ticket\Ticket\Debug\Ticket.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\DEMO\Ticket\Ticket\Debug\Ticket.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\DEMO\Ticket\Ticket\Debug\Ticket.lib" /MACHINE:X86 Debug\book.obj
+         Debug\linklist.obj
+         Debug\load.obj
+         Debug\main.obj
+         Debug\return_order.obj
+         Debug\select.obj
+         Debug\server_client.obj
+         Ticket.vcxproj -> E:\DEMO\Ticket\Ticket\Debug\Ticket.exe
+     1>Done Building Project "E:\DEMO\Ticket\Ticket\Ticket\Ticket.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.99
